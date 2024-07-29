@@ -3616,7 +3616,7 @@ function produce()
 		player.openbh = false;
 	}
 	
-	let tickmult = (Date.now() - player.last_update) / 100;
+	let tickmult = (Date.now() - player.last_update);
 
 	if(getofflinelimit() > 0)
 	{
